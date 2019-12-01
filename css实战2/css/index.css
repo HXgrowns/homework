@@ -1,0 +1,119 @@
+body, ul {
+	margin:0;
+	padding:0;
+}
+
+img{
+	vertical-align:top;
+	border:none;
+}
+
+.article {
+	border: none;
+	width: 100vw;
+	height: 100vh;
+}
+
+.sec1 {
+	width: 100vw;
+	height: 60px;
+	background-color: #33384B;
+}
+
+.sec1 > img {
+  display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.sec1 > img.return {
+	margin: 15px 40px 15px 15px;
+}
+
+.sec1 > img.cart {
+	float: right;
+	margin: 15px 15px;
+}
+
+.sec1 > p {
+  display: inline-block;
+	margin-top: 0;
+
+	width: 80px;
+  height: 60px;
+  
+  color: white;
+  line-height: 60px;
+}
+
+.sec2 {
+	width: 100vw;
+	height: 200px;
+}
+
+.sec2 > ul {
+  position: absolute;
+  z-index: 1;
+
+	width: 20px;
+	height: 200px;
+}
+
+.sec2 > ul > li {
+	display: block;
+	position: absolute;
+	float: left;
+}
+
+.sec2 img {
+	width: 100vw;
+	height: 200px;
+}
+
+.sec2 > ol {
+  position: relative;
+  float: right;
+  z-index: 2;
+	margin-top: 160px;
+  
+	width: 60px;
+  height: 20px;
+}
+
+.sec2 > ol > li {
+  float: left;
+	width: 20px;
+	height: 20px;
+  
+  font-size: 30px;
+  color: gray;
+  list-style-type: disc;
+}
+
+.sec2 > ol > li.active {
+  color: white;
+}
+
+.sec3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+  
+	width: 100vw;
+  height: 100px;
+}
+
+.item {
+	font-size: 20px;
+	text-align: center;
+  line-height: 40px;
+  list-style: none;
+	border-radius: 30px;
+	border: 1px solid white;
+}
+
+.item-2 {
+  color: white;
+	background-color: #FF2D50;
+}
