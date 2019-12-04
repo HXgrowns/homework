@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 22px;
+  color: #312919;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1100px;
+  height: 940px;
+  background: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  padding-top: 40px;
+}
+
+.sec1 {
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+
+.font-shadow {
+  color: white;
+  font-size: 92px;
+  text-shadow: 0 2px 0 #555, 0 4px 0 #444, 0 6px 0 #333, 0 8px 0 #222, 0 10px 0 #111;
+  letter-spacing: 2.4px;
+}
+
+.sec2 {
+  margin-top: -30px;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+
+.second {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 40px;
+  width: 350px;
+  height: 85px;
+  border-radius: 2px;
+  text-align: justify;
+  color: green;
+  font-size: 16px;
+  background: white;
+}
+
+.sec3 {
+  margin-top: -40px;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.third {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+.article1, .article2, .article3 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0px;
+  border: 8px solid white;
+}
+
+.third-img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url(iconfont/Merriweather-Regular.otf);
+}
+
+.third-con {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Merriweather";
+  text-align: center;
+  display: none;
+}
+
+.third-con h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: white;
+}
+
+.third-con p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: white;
+}
+
+.third-con button {
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.con3 h1, .con3 p{
+  color: black;
+}
+
+.article1:hover .con1 {
+  background-color: rgba(58, 1, 132, 0.44);
+  display: block;
+}
+
+.article2:hover .con2{
+  display: block;
+}
+
+.article3:hover .con3{
+  background-color: rgba(255, 231, 179, 0.3);
+  display: block;
+}
+
+.con3 > hr {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #D3CDBD;
+}
+
+.sec4 {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.contain-triangle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15px;
+  height: 15px;
+}
+
+.triangle {
+  border-bottom: 15px solid white;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.four {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 50%;
+  height: 75%;
+  border-radius: 2px;
+  text-align: justify;
+  word-break: break-all;
+  line-height: 1.8em;
+  font-size: 12px;
+  columns: 40px 3;
+  background-color: white;
+}
+
+.four-font {
+  font-family: serif;
+}
