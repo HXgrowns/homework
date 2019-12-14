@@ -1,147 +1,149 @@
-body,
-ul {
-    margin: 0;
-    padding: 0
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .content {
-    margin: 0 auto;
-    border: none;
-    width: 980px;
+  margin: 0 auto;
+  width: 980px;
 }
 
 .sec1 {
-    width: 100%;
-    height: 120px;
-    background-color: #33384B;
+  width: 100%;
+  height: 120px;
+  background-color: #33384B;
 }
 
-.sec1>img {
-    vertical-align: top;
-    width: 60px;
-    height: 60px;
-    display: inline-block;
+.sec1 img {  
+  display: inline-block;
+  vertical-align: top;
+  width: 60px;
+  height: 60px;
 }
 
-.sec1>img.return {
+.sec1 .return {
   margin: 30px 40px 15px 30px;
 }
 
-.sec1>img.cart {
-    float: right;
-    margin: 30px 30px;
+.sec1 .cart {
+  float: right;
+  margin: 30px;
 }
 
-.sec1>p {
-    margin-top: 0;
-    line-height: 120px;
-    display: inline-block;
-    width: 200px;
-    height: 120px;
-    color: white;
-    font-size: 40px;
+.sec1 p {
+  display: inline-block;
+  margin-top: 0;
+  
+  width: 200px;
+  height: 120px;
+
+  color: white;
+  font-size: 40px;  
+  line-height: 120px;
 }
 
 .sec2 {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
-.sec2>ul {
-    position: absolute;
-    width: 980px;
-    height: 400px;
+.sec2 ul {
+  position: absolute;
+  width: 980px;
+  height: 400px;
 }
 
 .sec2>ul>li {
-    display: block;
-    position: absolute;
-    float: left;
+  display: block;
+  position: absolute;
+  float: left;
 }
 
 .sec2 img {
-    width: 980px;
-    height: 400px;
+  width: 980px;
+  height: 400px;
 }
 
-.sec2>ol {
-    position: relative;
-    float: right;
-    margin-top: 310px;
-    width: 100px;
-    height: 20px;
+.sec2 ol {
+  position: relative;
+  float: right;
+  margin-top: 310px;
+  width: 100px;
+  height: 20px;
 }
 
 .sec2>ol>li {
-    float: left;
-    list-style-type: disc;
-    color: gray;
-    width: 30px;
-    height: 20px;
-    font-size: 60px;
+  float: left;
+  
+  width: 30px;
+  height: 20px;
+
+  color: gray;
+  font-size: 60px;
+  list-style-type: disc;
 }
 
-.sec2>ol>li.active {
-    list-style-type: disc;
-    color: white;
+.sec2>ol>.active {
+  color: white;
 }
 
 .sec3 {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100%;
-    height: 160px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  width: 100%;
+  height: 160px;
 }
 
 .sec3>.item {
-    border-radius: 40px;
-    text-align: center;
-    line-height: 80px;
-    border: 1px solid white;
-    font-size: 30px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 80px;
+  border: 1px solid white;
+  font-size: 30px;
 }
 
-.sec3>.item-2 {
-    background-color: #FF2D50;
-    color: white;
+.sec3 .item:hover {
+  background-color: #FF2D50;
+  color: white;
 }
 
 .arti {
-    display: flex;
-    width: 100%;
-    height: 255px;
-    margin-bottom: 20px;
+  display: flex;  
+  margin-bottom: 20px;
+  width: 100%;
+  height: 255px;
 }
 
 .left {
-    flex: 36;
-    margin: 20px 20px;
-    height: 216px;
+  flex: 36;
+  margin: 20px;
+  height: 216px;
 }
 
-.left>img {
-    width: 100%;
-    height: 100%;
+.left img {
+  width: 100%;
+  height: 100%;
 }
 
 .right {
-    flex: 50;
-    margin: 20px 20px;
-    height: 216px;
-    font-size: 36px;
+  flex: 50;
+  margin: 20px;
+  height: 216px;
+  font-size: 36px;
 }
 
 .describe {
-    margin: 10px 0 30px;
-    font-size: 30px;
-    color: gray;
+  margin: 10px 0 30px;
+  font-size: 30px;
+  color: gray;
 }
 
 .price {
-    margin-right: 10px;
-    color: red;
+  margin-right: 10px;
+  color: red;
 }
