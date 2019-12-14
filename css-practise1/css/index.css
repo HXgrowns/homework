@@ -10,7 +10,6 @@ li {
 .content {
   margin: 0 auto;
 	width: 245px;
-  height: 100vh - 100px;
   max-width: 100vw;
   max-height: 100vh;
 }
@@ -23,7 +22,7 @@ li {
 	border-radius: 10px;
 }
 
-.sec1 > h1 {
+.sec1 h1 {
   float: left;
   margin-left: 15px;
 
@@ -35,7 +34,7 @@ li {
   line-height: 50px;
 }
 
-.sec1 > img {
+.sec1 img {
   float: left;
   margin: 15px;
 	width: 20px;
@@ -48,7 +47,7 @@ li {
 	height: 20px;
 }
 
-.sec2 > img {
+.sec2 img {
   float: right;
 	margin: 0px 15px;
 	width: 20px;
