@@ -36,6 +36,18 @@ h1 {
   text-align: center;
 }
 
+.iconfont::before, .iconfont::after {
+  position: relative;
+  top: 25px;
+  content: '“';
+  line-height: 0;
+  font-size: 50px;
+}
+
+.iconfont::after {
+  content: '”';
+}
+
 .second {
   margin-top: 10px;
   margin-left: auto;
@@ -45,6 +57,7 @@ h1 {
   height: 85px;
   border-radius: 2px;
   text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
   color: green;
   font-size: 16px;
   background: white;
@@ -120,7 +133,7 @@ h1 {
   border: none;
 }
 
-.con3 h1, .con3 p{
+.con3 h1, .con3 p {
   color: black;
 }
 
@@ -129,16 +142,16 @@ h1 {
   display: block;
 }
 
-.article2:hover .con2{
+.article2:hover .con2 {
   display: block;
 }
 
-.article3:hover .con3{
+.article3:hover .con3 {
   background-color: rgba(255, 231, 179, 0.3);
   display: block;
 }
 
-.con3 > hr {
+.con3 hr {
   width: 80%;
   text-align: center;
   margin: 0 auto;
@@ -172,7 +185,7 @@ h1 {
   margin-right: auto;
   padding: 15px;
   width: 50%;
-  height: 75%;
+  height: 65%;
   border-radius: 2px;
   text-align: justify;
   word-break: break-all;
