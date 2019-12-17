@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  margin: auto;
+  margin-top: 100px;
+
+  width: 230px;
+  height: 120px;
+  border: 1px solid blanchedalmond;
+  text-align: right;
+}
+
+.button {
+  float: right;
+  margin-top: 10px;
+  width: 50px;
+}
