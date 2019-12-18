@@ -32,9 +32,9 @@ function mouseMove(e) {
     x2 = ract2.offsetLeft;
     y2 = ract2.offsetTop;
     if (moveX <= x2 + 80 && moveX >= x2-80 && moveY <= y2 + 80 && moveY >= y2-80) {
-      ract1.style.backgroundColor = 'blue';
+      ract2.style.backgroundColor = 'blue';
     } else {
-      ract1.style.backgroundColor = 'green';
+      ract2.style.backgroundColor = 'yellow';
     }
     ract1.style.left = moveX + 'px';
     ract1.style.top = moveY + 'px';
