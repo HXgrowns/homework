@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>购物车</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="lists">
+    <select id="goods-list" class="goods-list">
+      <option value="0">==请选择商品==</option>
+    </select>
+  </div>
+  <h3>文具店购物车</h3>
+  <table id="table" class="table" width="800px" cellpadding="10">
+    <tr class="table-head">
+      <th>选择</th>
+      <th>商品名称</th>
+      <th>商品单价(￥)</th>
+      <th>商品数量</th>
+      <th>总价(￥)</th>
+    </tr>
+    <tr class="table-footer">
+      <td class="footer-select">
+        全选
+        <input id="checkBox-0" type="checkbox"/>
+      </td>
+      <td id="footer-content" class="footer-content" colspan="4">
+        共计
+        <span id="totalSumNum">0</span>
+        件商品，
+        <span id="totalSumPrice">0</span>
+        ￥
+      </td>
+    </tr>
+  </table>
+  <script type="text/javascript" src="goods.json"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

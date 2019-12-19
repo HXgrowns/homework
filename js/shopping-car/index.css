@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lists {
+  margin: auto;
+  width: 800px;
+}
+
+.goods-list {
+  float: right;
+  width: 120px;
+  border: 1px solid #666;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #999;
+}
+
+tr {
+  text-align: center;
+}
+
+.table {
+  margin: auto;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+
+.table-head {
+  background-color: #eee;
+}
+
+.footer-content {
+  text-align: right;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+}
+
+.count {
+  margin: 0 8px;
+}
