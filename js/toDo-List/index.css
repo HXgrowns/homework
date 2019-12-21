@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.contain {
+  position: relative;
+  margin: 40px auto;
+  padding: 20px;
+  width: 455px;
+  min-height: 200px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.detail {
+  margin: 12px 0;
+}
+
+.input-text {
+  width: 400px;
+}
+
+.add-button {
+  padding: 3px 10px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  background-color: #FC999C;
+}
+
+.content {
+  margin: 50px 0;
+}
+
+.item {
+  padding: 3px;
+}
+
+.itemNum {
+  margin: 0 5px;
+}
+
+.delete {
+  display: none;
+  float: right;
+  width: 14px;
+  height: 14px;
+  color: red;
+  border: none;
+  background-color: #FC999C;
+}
+
+.footer {
+  position: absolute;
+  display: inline-flex;
+  justify-content: flex-end;
+  bottom: 10px;
+  width: 450px;
+}
+
+.footer-button {
+  margin: 3px 20px;
+  padding: 4px;
+  color: #FC999C;
+  background: none;
+  border: none;
+}
