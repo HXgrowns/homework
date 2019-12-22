@@ -9,9 +9,7 @@
 
 <body>
   <div class="lists">
-    <select id="goods-list" class="goods-list">
-      <option value="0">==请选择商品==</option>
-    </select>
+    <select id="goods-list" class="goods-list" onchange="selectedDroplist()"></select>
   </div>
   <h3>文具店购物车</h3>
   <table id="table" class="table" width="800px" cellpadding="10">
@@ -22,10 +20,12 @@
       <th>商品数量</th>
       <th>总价(￥)</th>
     </tr>
+    <tr>
+    </tr>
     <tr class="table-footer">
       <td class="footer-select">
         全选
-        <input id="checkBox-0" type="checkbox"/>
+        <input id="checkBox-0" type="checkbox" onclick="selectAll()"/>
       </td>
       <td id="footer-content" class="footer-content" colspan="4">
         共计
