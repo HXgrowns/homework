@@ -209,7 +209,7 @@ ajax.request = function (url, method, myCallback, text) {
 
 ### Q5 编程实现：有一个方法，可以避免每次请求重复去写创建 XHR 的整个过程，请求方法现只考虑 `POST` 和 `GET`，要求默认请求方法是 `GET`，如下：
 
-```
+```js
 /**
 options = {
   url: "",
@@ -220,8 +220,22 @@ options = {
   fail: function(error) {}    // 请求失败或出错后调用此方法
 }
 **/
-var request = function(options) {
-   // code this here
+var request = function (options) {
+  // code this here
+  let xhr = new XMLHttpRequest();
+  xhr.open(options.method || "GET", options.url);
+  try {
+    xhr.send(options.data);
+    xhr.onload = function () {
+      if (xhr.status != 200) {
+        options.fail(xhr.statusText);
+      } else {
+        options.success(xhr.responseText);
+      }
+    }
+  } catch (err) {
+    options.fail(err);
+  }
 }
 ```
 

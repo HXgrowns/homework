@@ -81,3 +81,4 @@ document.getElementById('itemsLink').onclick = function (e) {
 window.onload = function () {
   refresh(1);
 };
+
