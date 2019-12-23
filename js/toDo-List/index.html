@@ -12,14 +12,15 @@
     <h1>To Do List</h1>
     <p class="detail"><i>Simple Todo List with adding and filter by diff status.</i></p>
     <form>
-      <input id="input" class="input-text" type="text" onkeypress="addItem();"/>
-      <button id="addButton" class="add-button" type="button">Add</button>
+      <input id="input" class="input-text" type="text" onkeypress="enterpress()" />
+      <input hidden />
+      <button id="addButton" class="add-button" type="button" onclick="insertItem()">Add</button>
     </form>
     <ol id="itemsLink" class="content"></ol>
     <div class="footer">
-      <button id="all" class="footer-button">ALL</button>
-      <button id="active" class="footer-button">Active</button>
-      <button id="complete" class="footer-button">Complete</button>
+      <button id="all" class="footer-button" onclick="refresh(1)">ALL</button>
+      <button id="active" class="footer-button" onclick="refresh(2)">Active</button>
+      <button id="complete" class="footer-button" onclick="refresh(3)">Complete</button>
     </div>
   </div>
 
