@@ -5,7 +5,7 @@ function compare_collections(collection_a, collection_b) {
     return false;
   }
   var flag;
-  for (var i = 0; i < collection_a.length; i++) {
+  for (var i = 0, len = collection_a.length; i < len; i++) {
     if (collection_a[i] === collection_b[i]) {
       flag = true;
     } else {

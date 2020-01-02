@@ -3,7 +3,7 @@ function count_same_elements(collection) {
   for (var i = 0, len = collection.length; i < len; i++) {
     var obj = {};
     obj.key = collection[i].match(/[a-z]/g)[0];
-    for (var j = 0; j < result.length; j++) {
+    for (var j = 0, len2 = result.length; j < len2; j++) {
       if (result[j].key === obj.key) {
         result[j].count += parseInt(collection[i].match(/[0-9]*/g)[2]) || 1;
         obj.count = result[j].count;
