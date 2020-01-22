@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-detail {
+  width: 900px;
+  margin: 30px auto 0 auto;
+}
+
+.movie-detail-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.movie-detail-name {
+  color: #494949;
+  margin-bottom: 20px;
+}
+
+.movie-detail-name span {
+  margin-left: 5px;
+  color: #999;
+}
+
+.movie-detail-text {
+  margin-left: 20px;
+}
+
+.movie-detail-text a {
+  text-decoration: none;
+}
+
+.movie-introduction {
+  margin: 30px auto 0 auto;
+  width: 900px;
+}
+
+.movie-introduction-title {
+  color: #007722;
+}
+
+.movie-introduction-content {
+  margin-top: 20px;
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 2em;
+}

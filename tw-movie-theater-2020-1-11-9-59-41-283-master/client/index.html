@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>思沃影院</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="iconfont/iconfont.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="background">
+      <a href="home-page.html">
+        <h1 class="logo">思沃影院</h1>
+      </a>
+      <div class="search">
+        <input id="search-input" class="search-text" type="text" placeholder="搜索电影、电视剧、综艺、影人" onchange="searchMovie()" />
+        <span class="iconfont search-icon">&#xe652</span>
+      </div>
+    </div>
+    <div class="nav-secondary">
+      <a class="nav-secondary-links" href="#">影讯&购票</a>
+      <a class="nav-secondary-links" href="#">选电影</a>
+      <a class="nav-secondary-links" href="#">电视剧</a>
+      <a class="nav-secondary-links" href="#">排行榜</a>
+      <a class="nav-secondary-links" href="#">分类</a>
+      <a class="nav-secondary-links" href="#">影评</a>
+      <a class="nav-secondary-links" href="#">2019年度榜单</a>
+      <a class="nav-secondary-links" href="#">2019书影音报告</a>
+    </div>
+  </header>
+  <div class="movie-type">
+    <h1>选电影</h1>
+    <div class="movie-type-links">
+      <label id="most-hot" class="movie-type-item">热门</label>
+      <label class="movie-type-item">最新</label>
+      <label class="movie-type-item">经典</label>
+      <label class="movie-type-item">可播放</label>
+      <label class="movie-type-item">豆瓣高分</label>
+      <label class="movie-type-item">冷门佳片</label>
+      <label class="movie-type-item">华语</label>
+      <label class="movie-type-item">欧美</label>
+      <label class="movie-type-item">韩国</label>
+      <label class="movie-type-item">日本</label>
+      <label class="movie-type-item">动作</label>
+      <label class="movie-type-item">喜剧</label>
+      <label class="movie-type-item">爱情</label>
+      <label class="movie-type-item">科幻</label>
+      <label class="movie-type-item">悬疑</label>
+      <label class="movie-type-item">恐怖</label>
+      <label class="movie-type-item">文艺</label>
+    </div>
+  </div>
+  <form class="sort-method">
+    <input id="sort-method-option" name="sort-method-option" type="radio" checked />
+    <label class="sort-method-option" for="sort-method-option">按热度排序</label>
+    <input id="sort-method-option" name="sort-method-option" type="radio" />
+    <label class="sort-method-option" for="sort-method-option">按时间排序</label>
+    <input id="sort-method-option" name="sort-method-option" type="radio" />
+    <label class="sort-method-option" for="sort-method-option">按评价排序</label>
+  </form>
+  <section id="movies-links" class="movies-links">
+  </section>
+  <iframe width="100%" frameborder="0" hspace=0 vspace=0 marginheight="0" marginwidth="0" scrolling="no"
+    src="header-footer/footer.html"></iframe>
+  <script src="../movies.json"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

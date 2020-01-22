@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-classfy {
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+  width: 900px;
+}
+
+.movie-classfy-title {
+  font-size: 18px;
+}
+
+.hot-movies {
+  margin-left: 20px;
+  color: #3377AA;
+  font-size: 12px;
+}
+
+.movie-classfy-area {
+  margin-left: 20px;
+  color: #999;
+  font-size: 12px;
+}
